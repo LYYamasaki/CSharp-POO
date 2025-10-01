@@ -1,0 +1,15 @@
+C# : Linguagem de Programação
+dotnet / .NET : Plataforma de desenvolvimento para várias linguagens
+
+CLR tem limpeza automatica de memoria. 
+
+C# é uma linguagem Hibrida que vai utilizar pre-compilação para gerar um Common Intermediate Language (CIL) plataform agnostic, o bytecode vai ser executado em cima da maquina virutal de cada sistema, é necessario ter uma maquina especifica do .NET para rodar em cada SO.
+
+.NET é feito por classes que podem ser separadas / agrupadas por Entities (Entidades = como cliente, pedido), Services (Serviços = sistemas), Repositories (Classes que acessam dados).
+
+Agrupamento Assembly = Dividir em sub-projetos / subsistemas, podem agrupar as classes acimas como Entites, Services e Repositories.
+
+Aplicação = Agrupamento de assemblies relacionados
+
+Aplicação~Solution
+Assembly~Project
